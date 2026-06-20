@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Journey by Nilofar - a premium futuristic portfolio website showcasing learning, skills, projects, and goals in AI and design.">
+  <title>AI Journey by Nilofar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <span>Loading AI Journey...</span>
+  </div>
+
+  <div class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="site-header">
+      <nav class="navbar">
+        <a class="brand" href="#home" aria-label="AI Journey by Nilofar home">
+          <span class="brand-mark">N</span>
+          <span class="brand-text">
+            <strong>AI Journey by Nilofar</strong>
+            <small>Exploring Artificial Intelligence, One Step at a Time.</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="primaryNav">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#journey" class="nav-link">Learning Journey</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Welcome to my digital portfolio</p>
+          <h1>Hi, I'm Nilofar Naaz, an AI learner building a future in technology and design.</h1>
+          <p class="hero-description">I am exploring Artificial Intelligence, web development, and creative branding while turning every new skill into a step toward a brighter future.</p>
+
+          <div class="typing-wrap" aria-live="polite">
+            <span class="typing-label">I am focused on</span>
+            <span class="typing-text" id="typingText"></span>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#journey">Explore My Journey</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="glass-card hero-card hero-card-main">
+            <div class="card-glow"></div>
+            <p class="card-caption">AI Journey</p>
+            <h2>Learning. Designing. Growing.</h2>
+            <div class="stats-grid">
+              <div>
+                <strong>2026</strong>
+                <span>Started GitHub</span>
+              </div>
+              <div>
+                <strong>6+</strong>
+                <span>Skill Areas</span>
+              </div>
+              <div>
+                <strong>∞</strong>
+                <span>Growth Mindset</span>
+              </div>
+            </div>
+          </div>
+          <div class="floating-pill pill-one">AI Fundamentals</div>
+          <div class="floating-pill pill-two">Logo Design</div>
+          <div class="floating-pill pill-three">Web Development</div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Who Am I?</h2>
+        </div>
+        <div class="glass-panel about-panel">
+          <p>Hello! My name is Nilofar Naaz.</p>
+          <p>I am currently learning Artificial Intelligence and continuously improving my technical and creative skills. This website showcases my learning journey, projects, and future goals as I grow in AI, web development, and design.</p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Skills I Am Building</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass-card">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git &amp; GitHub</li>
+              <li>AI Fundamentals</li>
+              <li>Prompt Engineering</li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass-card">
+            <h3>Creative Skills</h3>
+            <ul>
+              <li>Logo Design</li>
+              <li>Brand Identity Design</li>
+              <li>Content Creation</li>
+              <li>Creative Thinking</li>
+            </ul>
+          </article>
+
+          <article class="skill-card glass-card">
+            <h3>Personal Skills</h3>
+            <ul>
+              <li>Communication Skills</li>
+              <li>Problem Solving</li>
+              <li>Continuous Learning</li>
+              <li>Time Management</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="journey">
+        <div class="section-heading">
+          <p class="eyebrow">Learning Journey</p>
+          <h2>My Growth Timeline</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item glass-panel">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>June 2026</h3>
+              <p>✓ Created my first GitHub repository</p>
+            </div>
+          </article>
+
+          <article class="timeline-item glass-panel">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>Current Goal</h3>
+              <p>✓ Learning web development and AI</p>
+            </div>
+          </article>
+
+          <article class="timeline-item glass-panel">
+            <div class="timeline-marker"></div>
+            <div>
+              <h3>Future Goals</h3>
+              <ul class="goal-list">
+                <li>Learn Python</li>
+                <li>Build AI projects</li>
+                <li>Start freelancing</li>
+                <li>Master English communication</li>
+                <li>Build my personal brand</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Projects I Am Working On</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card glass-card">
+            <div class="project-badge">Project 1</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive portfolio website showcasing my skills and learning journey.</p>
+          </article>
+
+          <article class="project-card glass-card">
+            <div class="project-badge">Project 2</div>
+            <h3>GitHub Learning Journey</h3>
+            <p>Learning repositories, commits, version control, and project management.</p>
+          </article>
+
+          <article class="project-card glass-card">
+            <div class="project-badge">Project 3</div>
+            <h3>Logo Design Collection</h3>
+            <p>A collection of logo concepts and branding projects created during my design practice.</p>
+          </article>
+
+          <article class="project-card glass-card">
+            <div class="project-badge">Project 4</div>
+            <h3>Future AI Projects</h3>
+            <p>Exciting AI-based projects coming soon.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s Connect</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info glass-panel">
+            <p class="contact-label">Email</p>
+            <a href="mailto:astronovaailabs002@gmail.com">astronovaailabs002@gmail.com</a>
+          </div>
+
+          <form class="contact-form glass-card" id="contactForm">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="Your email" required>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            </div>
+            <button class="button button-primary form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-panel glass-panel">
+        <p>Every expert was once a beginner. This website represents my journey of learning, growth, and exploration in Artificial Intelligence.</p>
+        <span>© 2026 AI Journey by Nilofar</span>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
